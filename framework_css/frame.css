@@ -1,0 +1,184 @@
+/**
+Este projeto é um desenvolvimento de um Framework web em CSS3 Puro.
+A principio, será apenas usando classes estabelecidas no HTML bem com suas Tags
+para implementar. Logo após a sua conclusão o Javascript que também será desenvolvido um 
+framework simples para aplicações em sistemas WEBS de baixa complexidade.
+
+*/
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+body, header{
+    font-size: 22px;
+    padding: 22px;
+    color: #000;
+
+}
+
+ol, ul {
+    text-decoration: none;
+    list-style: none;
+    font-size: 22px;
+    font-style: normal;
+    color: #000;
+   
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 22px;
+    font-style: normal;
+    color: #000;
+}
+p{
+    font-size: 20px;
+    font-style: normal;
+    color: blueviolet;
+}
+
+.a_color{
+    color: #fff;
+    font-size: 50px;
+    padding: 15px;
+}
+b, strong, i, em, mark, small,
+del, ins, sub, sup, q, address, cite{
+    font-size: 23px;
+    color: #000;
+}
+
+blockquote{
+    font-size: 25px;
+  }
+ 
+img{
+  margin: 100px ;
+} 
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    padding: 9px;  
+}
+
+/**
+* Classes para serem atribuidas ao nav e mudar a cor de fundo na medida que o usuário julgar necessário
+*/
+.bg-primeiro{
+    background-color: #1E90FF;
+}
+.bg-segundo{
+    background-color: 	#004055fb;
+}
+.bg-terceiro{
+    background-color: #006400;
+}
+.bg-quarto{
+    background-color: #FFFF00;
+}
+.bg-quinto{
+    background-color: #6E7B8B;
+}
+.bg-sexto{
+    background-color: #FF00FF;
+}
+nav{
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    font-family: cursive;
+    padding: 15px;
+}
+.img-center{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+/*Imagens em Galeria*/
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Define 4 colunas para a grade */
+    grid-auto-rows: 1fr; /* Altura das linhas igual */
+    gap: 2px; /* Espaçamento entre as imagens */
+  }
+  
+  .imagem-galeria {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .galeria_item-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+  
+  .galeria_item-2 {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+  }
+  
+  .galeria_item-3 {
+    grid-column: 1 / span 4;
+    grid-row: 3 / span 3;
+  }
+  
+  .galeria_item-4 {
+    grid-column: 1 / span 4;
+    grid-row: 6 / span 3;
+  }
+  
+  .galeria_item-5 {
+    grid-column: 1 / span 4;
+    grid-row: 9 / span 3;
+  }
+  
+  .galeria_item-6 {
+    grid-column: 1 / span 4;
+    grid-row: 12 / span 3;
+  }
+  
+/*Imagens em Coluna*/
+.coluna {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    margin-left: 1200px;
+    margin-top: 80px;
+  }
+  .linha{
+    padding: 25px 25px 25px 25px;
+    margin: 25px;
+    background-color: #6E7B8B;
+    border-radius: 15px 15px 15px 15px;
+    
+  }
+.linha-item{
+    padding-left:50px ;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
